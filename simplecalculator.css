@@ -1,0 +1,57 @@
+root:{
+	font-size: 15px;
+	background-color: grey;
+}
+.container{
+	width: 80%;
+	height: 90vh;
+	background-color: lightblue;
+	margin: 0 auto;
+}
+.calculator{
+	padding: 10px;
+	//top: 50px;
+	text-align: center;
+	position: relative;
+	width: 60%;
+	height: 30rem;
+	top: 40px;
+	margin: 0 auto;
+	background-color: #aeaedf;
+}
+button{
+	position: relative;
+	top: 30px;
+	border-radius: 20%;
+	border: none;
+	margin: 20px;
+	padding: 5px;
+	box-shadow: none;
+	size: 10px;
+	cursor: pointer;
+	font-size: 15px ;
+	box-shadow: 2px 2px 11px 1px #000000;
+}
+.add:hover ,.add:active , .subtract:hover , .multiplication:hover{
+	font-size: 17px;
+	//outline: 0;
+}
+
+.number{
+	position: relative;
+	top: -38px;
+	margin-left: 70px;
+}
+.numberlabel{
+	margin-top: 80px;
+	margin-right: 200px;
+}
+.numberlabel2{
+
+	margin-top: 20px;
+	margin-right: 200px;
+}
+h4{
+	margin-top: 100px;
+	top: 00px;
+}
